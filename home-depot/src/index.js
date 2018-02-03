@@ -1,15 +1,23 @@
+// React
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+// React Router
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+// Components
+import Login from './components/Login/Login';
 import NavComponent from './components/navbar/navbar.js';
-class App extends React.Component {
-	render() {
-		return(
-			<div>
+// Style
+import './index.css';
+
+const App = () => (
+  <div>
 				<NavComponent></NavComponent>
-			</div>
-		);
-	}
-}
+	</div>
+  <BrowserRouter>
+    <Switch>
+      <Route path="/login" component={Login} />
+    </Switch>
+  </BrowserRouter>
+);
 
 ReactDOM.render(<App />, document.getElementById('root'));
