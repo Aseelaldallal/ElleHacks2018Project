@@ -9,12 +9,18 @@ ul {
     background-color: #ee7125;
 }
 
-li {
+li:first-child {
     float: left;
+}
+
+li {
+	float:right;
 }
 
 li a {
     display: block;
+    font-family: 'Stardos Stencil', bold;
+    font-size: 25px;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -23,5 +29,10 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color: #ee7125;
+}
+
+img {
+	height: 65px;
+	width: 65px;
 }

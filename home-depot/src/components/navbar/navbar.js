@@ -1,17 +1,18 @@
 import React from 'react';
 //import ReactDOM from 'react-dom';
 import classes from './navbar.css';
-
+import logo from '../../assets/img/homeDepotLogo.png';
 
 export default class NavComponent extends React.Component{
   render() {
     return (
+      <div>
       <ul>
-        <li><a href="default.asp">Home</a></li>
-        <li><a href="news.asp">News</a></li>
-        <li><a href="contact.asp">Contact</a></li>
-        <li><a href="about.asp">About</a></li>
+        <li><img src={logo} /></li>
+        <li><a href="#">EN/FR</a></li>
+        <li><a href="#">Register</a></li>
       </ul>
+      </div>
     );
   }
 };
