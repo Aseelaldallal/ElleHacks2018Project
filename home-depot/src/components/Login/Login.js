@@ -1,8 +1,12 @@
+// React
 import React from 'react';
+// Images
+import Apron from '../../assets/images/apron.png';
+// Styling
 import classes from './Login.css';
 
 const Login = () => {
-  return <div> HELLO IM LOGIN </div>;
+  return <img src={Apron} alt="apron" />;
 };
 
 export default Login;
