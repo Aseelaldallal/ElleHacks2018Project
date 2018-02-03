@@ -10,13 +10,13 @@ import NavComponent from './components/navbar/navbar.js';
 import './index.css';
 
 const App = () => (
-  <div>
-				<NavComponent></NavComponent>
-	</div>
-  <BrowserRouter>
-    <Switch>
-      <Route path="/login" component={Login} />
-    </Switch>
+	  <BrowserRouter>
+	  	<div>
+			<NavComponent></NavComponent>
+	    	<Switch>
+	      		<Route path="/login" component={Login} />
+	    	</Switch>
+    	</div>
   </BrowserRouter>
 );
 
