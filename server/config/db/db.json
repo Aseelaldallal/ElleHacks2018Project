@@ -1,0 +1,60 @@
+{  
+   "questions":[  
+      {  
+         "_id":"5a75e6ba7261f4148038aa07",
+         "question":"What tool do you use to fix a clogged toilet?",
+         "answer":"plunger",
+         "options":[  
+            "saw",
+            "red bull",
+            "plunger",
+            "shoe"
+         ]
+      },
+      {  
+         "_id":"5a75e6ba7261f4148038aa08",
+         "question":"How many plumbing tools does home depot sell?",
+         "answer":25,
+         "options":[  
+            30,
+            50,
+            60,
+            25
+         ]
+      },
+      {  
+         "_id":"5a75e6ba7261f4148038aa09",
+         "question":"How many bathtubs does home depot sell?",
+         "answer":50,
+         "options":[  
+            30,
+            50,
+            60,
+            25
+         ]
+      },
+      {  
+         "_id":"5a75e6ba7261f4148038aa0a",
+         "question":"What color do most customers like their bathtub to be??",
+         "answer":"white",
+         "options":[  
+            "pink",
+            "blue",
+            "black",
+            "white"
+         ]
+      }
+   ],
+   "quizes": [
+       {
+            "name": "Plumbing Part 1",
+            "questions": ["5a75e6ba7261f4148038aa07", "5a75e6ba7261f4148038aa08"],
+            "video": "www.blahblah.com"
+       },
+       {
+            "name": "Bath Part 1",
+            "questions": ["5a75e6ba7261f4148038aa09", "5a75e6ba7261f4148038aa0a"],
+            "video": "www.blahblah.com"
+       }
+   ]
+}
